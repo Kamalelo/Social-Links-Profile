@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "CustomFont"; /* Name your font family */
+  src: url("fonts/Inter-VariableFont_slnt\,wght.ttf"); /* Locate the .ttf file within your directory*/
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+div {
+  font-family: "CustomFont";
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0, 0%, 12%);
+}
+img {
+  border-image: round;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+.Name {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+.description {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+a {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  background-size: 100%;
+  width: 250px;
+}
+
+a:last-child {
+  margin-bottom: 30px;
+}
+
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
